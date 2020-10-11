@@ -1,0 +1,75 @@
+.fD{
+    background-color:rgb(47, 164, 236);
+    color: white;
+    display: inline-block;
+    max-width: 140px;
+    margin: 15px;
+    max-height: 150px;
+    font-size: small;
+}
+.fdIcon{
+    max-width: 25px;
+    max-height: 25px;
+}
+#Icon{
+    max-width: 75px;
+    max-height: 75px;
+}
+#currentCity{
+    border-top: thin solid lightgray;
+    border-bottom: thin solid lightgray;
+    width: 1000px;
+    margin: 50px;
+}
+#fiveDay{
+    text-align: center;
+    width: 1000px;
+}
+#wd{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    background-color: rgb(36, 35, 35);
+    height: 75px;
+}
+#wdt{
+    padding: 10px;
+}
+.good{
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.moderate{
+    background-color: rgb(245, 117, 42);
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.severe{
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.cityButton{
+    border: thin solid black;
+    padding: 5px;
+}
+
+#cityList{
+    margin-top: 10px;
+    background-color: white;
+}
+
+#citySearch{
+    background-color: rgb(240, 240, 240);
+    padding: 25px;
+    width: max-content;
+    margin-left: 100px;
+   
+}
+#moveRight{
+    float: left;
+}

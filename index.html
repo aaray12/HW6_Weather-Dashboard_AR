@@ -8,31 +8,42 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class = "container">
+    <header class = "container-fluid" id = "wd"> <h1 id = "wdt">Weather Dashboard</h1></header>
         <div class = "row">
-            <div class = "col-md-3">
-                <h5>Search For City:</h5>
-                <input id = "cityName">
-                <button id = "searchCity">Search</button>
+            <div class = "container" id = "moveRight"></div>
+            <div class = "col-md-4">
+                <div id = "citySearch">
+                    <h5>Search For City:</h5>
+                    <input id = "cityName">
+                    <button id = "searchCities">Search</button>
+                    <div id = "cityList">
+                    </div>
+                </div>
             </div>
-            <div class = "col-md-9">
-                <div class = row>
-                    <div id = "currentCity">
+            <div class = "col-md-8" >
+                <div id = "wI">
+                    <div class = row > 
+                        <div class = "container-fluid "id = "currentCity">
 
+                        </div>
                     </div>
-                </div>
-                <div class = "row">
-                    <div id = "fiveDay">
-
+                    <div class = "row" id = "rowText">
+                        
+                        <div class = "container-fluid " id = "fiveDay">
+                            <h4> Five Day Forecast:</h4>
+                        </div>
                     </div>
-                </div>
+            </div>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src = "script.js"></script>
+   
 </body>
 </html>
