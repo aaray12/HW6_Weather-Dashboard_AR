@@ -1,4 +1,4 @@
-
+$("#fiveDay").hide();
 //create click event for search button
 $("#searchCities").click(function(e){
     
@@ -69,6 +69,7 @@ $("#searchCities").click(function(e){
                         $(".fD").remove()
 
                         //create a for loop that creates the five day forcast
+                        $("#fiveDay").show()
                         for (i = 0; i < 5; i ++){
                             var dayTemp = (response.daily[i].temp.day - 273.15) * 1.80 + 32;
                             var fdTemp = $("<p>").text("Temp: ").attr("class", "fd");
